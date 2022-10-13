@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/formularios.css">
+    <link rel="shortcut icon" href="../imagenes/logo.png" type="image/x-icon">
+    <title>Agregar dispocitivo</title>
+</head>
+<body>
+    <main id="container">
+        <div id="aside">
+            <div id="container__img">
+                <img id="logo" src="../imagenes/logo.png" alt="logo">
+            </div>
+            <ul id="navbar">
+                <li class="navbar__li"><a href="../index.html">Inicio</a></li>
+                <li class="navbar__li"><a href="agregar.html">Agregar activo</a></li>
+                <li class="navbar__li"><a href="actualizar.html">Actualizar activo</a></li>
+                <li class="navbar__li"><a href="eliminar.html">Eliminar activo</a></li>
+                <li class="navbar__li"><a href="agregarimpresora.html">Agregar impresora</a></li>
+                <li class="navbar__li"><a href="verdispositivo.html">Ver activo</a></li>
+                <li class="navbar__li"><a href="verregistros.html">Registros</a></li>
+                <li class="navbar__li"><a href="verimpresora.html">Ver impresora</a></li>
+                <li class="navbar__li"><a href="regristrosimpresoras.html">Registros impresora</a></li>
+                <li class="navbar__li"><a href="">Cerrar seccion</a></li>
+            </ul>
+        </div>
+        <div id="main">
+            <h1 id="main__titulo">Inventario Activos 2022</h1>
+            <form action="../php/registraractivo.php" method="post">
+                <h2 class="titulo">Agregar activo</h2>
+                <div class="container">
+                    <label class="sub">
+                        Datos
+                    </label>
+                    <br><br>
+                    <label>
+                        Marca   <br>
+                        <input type="text" placeholder="Marca" name="marca">
+                    </label>
+                </div>
+                <div class="container">
+                    <label>
+                        Serial   <br>
+                        <input type="text" placeholder="Serial" name="serial">
+                    </label>
+                </div>
+                <!--  -->
+                <div class="container">
+                    <label>
+                        Referencia   <br>
+                        <input type="text" placeholder="Referencia" name="referencia">
+                    </label>
+                </div>
+                <div class="container">
+                    <label>
+                        Ubicacion   <br>
+                        <input type="text" placeholder="Ubicacion" name="ubicacion">
+                    </label>
+                </div>
+                <div class="container">
+                    <label>
+                        Codigo activo    <br>
+                        <input type="text" placeholder="Codigo activo" name="codigoactivo">
+                    </label>
+                </div>
+                <!--  -->
+                <div class="container">
+                    <label>
+                        Procesador   <br>
+                        <input type="text" placeholder="Procesador" name="procesador">
+                    </label>
+                </div>
+                <div class="container">
+                    <label>
+                        Estado    <br>
+                        <input type="text" placeholder="Estado" name="estado">
+                    </label>
+                    <!--  -->
+                <div class="container">
+                    <label class="sub">
+                        Memoria ram   <br>
+                        <!-- <input type="text" placeholder="Memoria ram"> -->
+                    </label>
+                </div>
+                <div class="container">
+                    <label>
+                        Cantidad    <br>
+                        <input type="text" placeholder="Cantidad" name="cantidad">
+                    </label>
+                </div>
+                <div class="container">
+                    <label>
+                        Velocidad    <br>
+                        <input type="text" placeholder="Velocidad" name="velocidad">
+                    </label>
+                </div>
+                 <!--  -->
+                 <div class="container">
+                    <label class="sub">
+                        Disco duro   <br>
+                    </label>
+                </div>
+                <div class="container">
+                    <label>
+                        Marca    <br>
+                        <input type="text" placeholder="Marca" name="marcadiscoduro">
+                    </label>
+                </div>
+                <div class="container">
+                    <label>
+                        Capacidad    <br>
+                        <input type="text" placeholder="Capacidad" name="capacidaddiscoduro">
+                    </label>
+                </div>
+                 <!--  -->
+                 <div class="container">
+                    <label class="sub">
+                       Unidad de disco   <br>
+                    </label>
+                </div>
+                <div class="container">
+                    <label>
+                        Serial    <br>
+                        <input type="text" placeholder="Serial" name="serialunidaddedisco">
+                    </label>
+                </div>
+                <!--  -->
+                <!--  -->
+                <div class="container">
+                    <label class="sub">
+                       Datos monitor<br>
+                    </label>
+                </div>
+                <div class="container">
+                    <label>
+                        Marca   <br>
+                        <input type="text" placeholder="Marca" name="marcamonitor">
+                    </label>
+                </div>
+                <div class="container">
+                    <label>
+                        Serial   <br>
+                        <input type="text" placeholder="Serial" name="serialmonitor">
+                    </label>
+                </div>
+                <!--  -->
+                <div class="container">
+                    <label>
+                        Referencia   <br>
+                        <input type="text" placeholder="Referencia" name="referenciamonitor">
+                    </label>
+                </div>
+                <div class="container">
+                    <label>
+                        Codigo activo    <br>
+                        <input type="text" placeholder="Codigo activo" name="codigoactivominitor">
+                    </label>
+                </div>
+                <div class="container">
+                    <label>
+                        Cable de poder   <br>
+                        <input type="text" placeholder="Cable de poder" name="cablemonitor">
+                    </label>
+                </div>
+                <div class="container">
+                    <label>
+                        Estado    <br>
+                        <input type="text" placeholder="Estado" name="estadominitor">
+                    </label>
+                </div>
+                <!--  -->
+                <!--  -->
+                <div class="container">
+                    <label class="sub">
+                       Datos Teclado<br>
+                    </label>
+                </div>
+                <div class="container">
+                    <label>
+                        Marca    <br>
+                        <input type="text" placeholder="Marca" name="marcateclado">
+                    </label>
+                </div>
+                <div class="container">
+                    <label>
+                        Estado    <br>
+                        <input type="text" placeholder="Estado" name="estadoteclado">
+                    </label>
+                </div>
+                <div class="container">
+                    <label>
+                        Serial    <br>
+                        <input type="text" placeholder="Serial" name="serialteclado">
+                    </label>
+                </div>
+                 <!--  -->
+                <!--  -->
+                <div class="container">
+                    <label class="sub">
+                      Software y configuracion<br>
+                    </label>
+                </div>
+                <div class="container">
+                    <label>
+                        Nombre PC    <br>
+                        <input type="text" placeholder="Nombre PC" name="nombrepc">
+                    </label>
+                </div>
+                <div class="container">
+                    <label>
+                        Tipo direccion IP    <br>
+                        <input type="text" placeholder="Tipo direccion IP" name="tipoip">
+                    </label>
+                </div>
+                <div class="container">
+                    <label>
+                        Serial    <br>
+                        <input type="text" placeholder="Serial" name="serialsoftware">
+                    </label>
+                </div>
+                 <!--  -->
+                <!--  -->
+                <div class="container">
+                    <label class="sub">
+                      Sistema operativo<br>
+                    </label>
+                </div>
+                <div class="container">
+                    <label>
+                        Nombre    <br>
+                        <input type="text" placeholder="Nombre" name="nombresistemaope">
+                    </label>
+                </div>
+                <div class="container">
+                    <label>
+                        Version    <br>
+                        <input type="text" placeholder="Version" name="versionsistemaiope">
+                    </label>
+                </div>
+                 <!--  -->
+                <!--  -->
+                <div class="container">
+                    <label class="sub">
+                      Frecuencia mantenimineto<br>
+                    </label>
+                </div>
+                <div class="container">
+                    <label>
+                        Meses    <br>
+                        <input type="text" placeholder="Meses" name="meses">
+                    </label>
+                </div>
+                <!--  -->
+                <!--  -->
+                <div class="container">
+                    <label class="sub">
+                      Registro de mantenimineto<br>
+                    </label>
+                </div>
+                <div class="container">
+                    <label>
+                        Fecha    <br>
+                        <input type="text" placeholder="Fecha" name="fecha">
+                    </label>
+                </div>
+                <div class="container">
+                    <label>
+                        Tipo de servivio    <br>
+                        <input type="text" placeholder="Tipo de servivio" name="tiposervicio">
+                    </label>
+                </div>
+                <div class="container">
+                    <label>
+                        repuestos    <br>
+                        <input type="text" placeholder="repuestos" name="repuestos">
+                    </label>
+                </div>
+                <div class="container">
+                    <label>
+                        Siguiente revision    <br>
+                        <input type="text" placeholder="Siguiente revision" name="siguienterevision">
+                    </label>
+                </div>
+                <div class="container">
+                    <label>
+                        Descripcion    <br>
+                       <textarea name="" id="" cols="30" rows="10" placeholder="Se le hizo mantenimiento correctivo tal dia y se le cambio el disco duro e.c.t" name="descripcion"></textarea>
+                    </label>
+                </div>
+                    <button type="submit" id="btnguardar">Guardar</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

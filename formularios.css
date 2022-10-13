@@ -1,0 +1,139 @@
+/* body{
+    background-color: #030314;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #030314;
+    height: auto;
+    display: flex;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 50%;
+}*/
+form{
+    width: 80%;
+    height: 500px;
+    border: 5px solid #030314;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background: #030314;
+    overflow: auto;
+}
+form::-webkit-scrollbar{
+    color: #030314;
+}
+form::-webkit-scrollbar-thumb{
+    background-color: #fff;
+}
+.containerregistros{
+    width: 80%;
+    height: 500px;
+    /* border: 5px solid #030314; */
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background: #030314;
+    overflow: auto;
+    color: #fff;
+}
+.containerregistros:hover{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 100000;
+    top: 0;
+    margin-top: 0px;
+    left: 0;
+    border-radius: 0;
+    background-color: #fff;
+    color: #030314;
+}
+.titulo{
+    text-align: center;
+    color: #fff;
+    margin-top: 40px;
+} 
+h2{
+    text-align: center;
+    /* color: black; */
+}
+.container{
+    /* margin-top: 10px; */
+    margin: 30px auto;
+}
+label{
+    color: #fff;
+    font-family: cursive;
+}
+.sub{
+    color: #ff0000;
+}
+input{
+    border: 2px solid #030314;
+    width: 300px;
+    height: 30px;
+    outline: none;
+    border-radius: 10px;
+    padding: 5px;
+    transition: all 0.5s;
+}
+input::placeholder{
+    color: #030314;
+}
+input:hover{
+    background: none ;
+    border: 2px solid #fff;
+    color: #fff;
+    transition: all 0.5s;
+}
+textarea{
+    width: 300px;
+    resize: none;
+}
+#btnguardar{
+    border: 2px solid #030314;
+    width: 300px;
+    height: 50px;
+    outline: none;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+#btnguardar:hover{
+    background-color: #00ff00;
+}
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (max-width:559px) {
+input{
+    width: 90%;
+    
+}
+textarea{
+    width: 90%;
+    resize: none;
+}
+#btnguardar{
+    width: 90%;
+}
+}
+
